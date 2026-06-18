@@ -1,0 +1,10 @@
+interface:
+  display_name: "国学大师 Course Skill"
+  short_description: "Source-grounded course Q&A, review, and workflows."
+  default_prompt: "Use 国学大师 to answer questions about 国学大师 and cite the course sources."
+
+# Trust surface:
+#   - Reads packaged course reference files under references/.
+#   - Runs local scripts/search_course_notes.py for lightweight keyword lookup.
+#   - Does not call external services unless the host agent chooses to enrich or rebuild materials.
+#   - Active role(s): Consultant.

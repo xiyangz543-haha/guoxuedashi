@@ -1,0 +1,7 @@
+interface:
+  display_name: "国学大师 Course Skill"
+  short_description: "Source-grounded course Q&A, review, and workflows."
+  default_prompt: "Use $国学大师 to answer questions about 国学大师 and cite the course sources."
+
+policy:
+  allow_implicit_invocation: true

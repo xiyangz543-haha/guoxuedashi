@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-06-17T21:46:12",
+  "source_dir": "C:\\Users\\华硕\\Desktop\\daizhigev20-master\\daizhigev20-master",
+  "total_texts": 15473,
+  "successful": 15473,
+  "failed": 0,
+  "categories": {
+    "佛藏": 5135,
+    "儒藏": 908,
+    "医藏": 911,
+    "史藏": 2043,
+    "子藏": 1463,
+    "易藏": 343,
+    "艺藏": 446,
+    "诗藏": 776,
+    "道藏": 1721,
+    "集藏": 1727
+  },
+  "transcripts": [],
+  "analysis_files": [],
+  "screenshots": [],
+  "course_distillations": [
+    {
+      "type": "llm_analysis",
+      "description": "LLM-enriched analysis of all 15,694 texts",
+      "file": "course_package.json",
+      "entries": 15704,
+      "fields": [
+        "title",
+        "summary",
+        "concepts",
+        "topics",
+        "quotes"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "type": "full_catalog",
+      "file": "full_transcript.md",
+      "description": "Complete structured catalog of all texts"
+    },
+    {
+      "type": "concept_glossary",
+      "file": "concept_glossary.md",
+      "description": "Extracted concepts with frequency ranking"
+    },
+    {
+      "type": "quote_index",
+      "file": "quote_index.md",
+      "description": "Key quotes organized by category"
+    }
+  ],
+  "notes": [
+    "All 15,694 texts processed by LLM (15,680 success, 14 failed due to encoding issues).",
+    "Reference files rebuilt from distillation data."
+  ]
+}
